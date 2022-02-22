@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-const Genre = (props: Props) => {
+const Genre = () => {
     return (
         <>
             <div className='lg:max-w-4xl lg:m-auto'>
@@ -17,9 +15,9 @@ const Genre = (props: Props) => {
                     <span className='w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Action</span>
                     <span className='w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Advent..</span>
                     <span className='w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Animation</span>
-                    <span className='w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Comedy</span>
-                    <span className='w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Crime</span>
-                    <span className='w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Docum..</span>
+                    <span className='hidden sm:block w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Comedy</span>
+                    <span className='hidden sm:block w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Crime</span>
+                    <span className='hidden sm:block w-auto rounded-lg bg-slate-700 text-gray-400 p-2 hover:bg-slate-800'>Docum..</span>
                 </div>
             </div>
         </>

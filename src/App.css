@@ -5,3 +5,11 @@
 .transparent-background{
   
 }
+
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none !important;
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+    background-image: none !important;
+}
